@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../styles/style.css" media="all">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media-querie.css">
 </head>
 <body>
     <!-- main -->
@@ -15,7 +16,39 @@
         <section class="content">
 
             <!-- imagem -->
-            <img class="img-content" src="../images/builder.jpg" alt="builder">
+            <div class="img"></div>
+
+            <!-- formulario -->
+            <form class="formulario" action="#" method="post">
+
+                <!-- texto -->
+                <div class="div-login-text">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, accusamus placeat debitis.
+                    </p>
+                </div>
+
+                <!-- input usuário -->
+                <div class="div-login">
+                    <label for="iuser"><img class="img-input" src="../images/user.png" alt=""></label>
+                    <input type="text" name="uer" id="iuser">
+                </div>
+
+                <!-- input senha -->
+                <div class="div-login">
+                    <label for="ipassword"><img class="img-input" src="../images/password.png" alt=""></label>
+                    <input type="password" name="password" id="ipassword">
+                </div>
+
+                <!-- botão de login -->
+                <input type="button" value="Login">
+                
+                <!-- recuperar senha -->
+                <div class="rec-senha">
+                    <p>Recuperar senha</p>
+                </div>
+            </form>
+
         </section>
     </main>
 </body>

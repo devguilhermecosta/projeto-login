@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    .container {
+        background-image: linear-gradient(to  top, lightblue, lightgreen);
+    }
+
+    .content {
+        width: 90vw;
+    }
+
+    .img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: right;
+        width: 70%;
+        text-align: center;
+    }
+
+    .div-login {
+        width: 80%;
+    }
+
+    .content form input[type="button"] {
+        width: 50%;
+    }
+}
