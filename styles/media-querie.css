@@ -29,3 +29,58 @@
         width: 50%;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .content {
+        width: 80vw;
+    }
+
+    .img {
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: right;
+        width: 55%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .div-login-text {
+        width: 55%;
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        width: 80vw;
+        max-width: 850px;
+    }
+
+    .img {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    .formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .div-login-text {
+        width: 55%;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .div-login {
+        width: 60%;
+    }
+}
