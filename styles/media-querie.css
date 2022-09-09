@@ -51,8 +51,12 @@
         align-items: center;
     }
 
+    .div-login input {
+        font-size: 18px;
+    }
+
     .div-login-text {
-        width: 55%;
+        width: 70%;
         padding: 10px;
     }
 }
@@ -79,12 +83,16 @@
         align-items: center;
     }
 
-    .div-login-text {
-        width: 55%;
-        padding: 10px;
+    .div-login {
+        width: 80%;
     }
 
-    .div-login {
-        width: 60%;
+    .div-login input {
+        font-size: 18px;
+    }
+
+    .div-login-text {
+        width: 70%;
+        padding: 10px;
     }
 }

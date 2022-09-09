@@ -93,6 +93,10 @@ body {
     cursor: pointer;
 }
 
+.content form input[type="button"]:hover {
+    background-color: rgb(130, 168, 180);
+}
+
 .rec-senha {
     font-size: 12px;
     color: lightseagreen;
