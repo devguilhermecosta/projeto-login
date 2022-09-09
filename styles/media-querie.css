@@ -30,12 +30,6 @@
     }
 }
 
-@media screen and (min-width: 768px) and (orientation: landscape) {
-    .container {
-        height: 110vh;
-    }
-}
-
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .content {
         width: 80vw;
