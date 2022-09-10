@@ -44,6 +44,7 @@
         float: left;
         width: 45%;
         height: 100%;
+        transition: all 100ms ease-in-out;
     }
 
     .formulario {
@@ -63,6 +64,7 @@
     .div-login-text {
         width: 70%;
         padding: 10px;
+        font-size: 20px;
     }
 }
 
@@ -99,5 +101,6 @@
     .div-login-text {
         width: 70%;
         padding: 10px;
+        font-size: 20px;
     }
 }
